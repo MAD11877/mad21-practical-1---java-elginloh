@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 public class Question2
 {
@@ -16,6 +17,7 @@ public class Question2
     System.out.println("Enter weight(KG): ");
     double weight = in.nextDouble();
     double BMI = weight / (height * height);
-    System.out.println(BMI);
+    DecimalFormat df = new DecimalFormat("#.#");
+    System.out.println(df.format(BMI));
   }
 }
