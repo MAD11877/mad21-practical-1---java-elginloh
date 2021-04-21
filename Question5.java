@@ -28,13 +28,13 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter a number: ");
+    // System.out.print("Enter a number: ");
     int totalint = in.nextInt();
     int max = 0, mode = 0, count = 0;
     List<Integer> l1 = new ArrayList<Integer>(); 
     for(int x = 0; x < totalint; x++)
     {
-      System.out.print("Please enter another number: ");
+      // System.out.print("Please enter another number: ");
       int numbs = in.nextInt();
       l1.add(numbs);
     }
